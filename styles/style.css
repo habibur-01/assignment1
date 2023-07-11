@@ -272,21 +272,53 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    
-}
-.latest-deal-content{
-   text-align: center;
 
 }
-.subscribe-section{
+
+.latest-deal-content {
+    text-align: center;
+
+}
+
+.subscribe-section {
     margin-top: 48px;
 }
-#search-bar{
+
+#search-bar {
     width: 500px;
     height: 54px;
     border-radius: 8px;
     font-size: 18px;
     padding: 0px 10px;
     margin-right: 10px;
-    
+
+}
+
+/* footer */
+.footer-container {
+    text-align: center;
+    padding: 200px;
+    margin-top: 120px;
+    width: 100%;
+    background: #111010;
+}
+
+.shop-name {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.shop-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright-section {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
 }
