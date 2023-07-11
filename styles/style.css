@@ -239,7 +239,7 @@ body {
 
 }
 
-.all {
+.insta-all-img {
     /* display: flex;
     justify-content: center;
     align-items: center;  */
@@ -298,8 +298,8 @@ body {
 .footer-container {
     text-align: center;
     padding: 200px;
-    margin-top: 120px;
-    width: 100%;
+    margin-top: 110px;
+    background-size: cover;
     background: #111010;
 }
 
@@ -321,4 +321,43 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin-top: 32px;
+}
+/* user */
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    gap: 20px;
+}
+.user-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.review-content{
+    text-align: center;
+    height: 340px;
+    width: 300px;
+    border: 1px solid blue;
+    padding: 60px 10px;
+    border-radius: 10px;
+    margin-top: 120px;
+    background-color: hsla(0, 41%, 89%, 0.15);
+
+}
+.user-review{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: rgba(39, 39, 39, 0.80);
+}
+.user-name{
+    font-size: 18px;
+    font-weight: 400;
+}
+.review-title{
+    margin-top: 110px;
+    text-align: center;
 }
