@@ -1,0 +1,29 @@
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 50px 240px 0px 240px; */
+    /* gap: 100px; */
+}
+
+.banner-content {
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    /* width: 708px; */
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+}
