@@ -4,21 +4,30 @@
 
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* banner section style start */
+
 .banner-container {
     height: 840px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-size: cover;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 0px 240px 0px 240px;
+    padding: 0px 230px 0px 240px;
     gap: 100px;
+
 
 }
 
-.banner-img {
+.banner-container .banner-img {
+    padding-top: 50px;
     width: 550px;
-    height: 700px;
-    ;
+    height: 790px;
+
 }
 
 .banner-content {
@@ -27,7 +36,7 @@
 }
 
 .banner-title {
-    font-size: 58px;
+    font-size: 52px;
     color: #272727;
     font-weight: 800;
     margin-bottom: 20px;
@@ -48,4 +57,98 @@
     color: white;
     padding: 20px 40px;
     border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+.btn-primary:hover {
+    transform: translateY(4px);
+}
+
+.features-container {
+    background-color: #FFF;
+}
+
+.feature-content {
+    text-align: center;
+    padding-top: 170px;
+
+}
+
+.primary-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 600px;
+    margin: auto;
+}
+
+/* our features flower style start */
+
+.features-img-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding: 0px 240px;
+}
+
+.img-box {
+    width: 420px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    margin-top: 48px;
+    position: relative;
+    box-shadow: 4px 4px 10px gainsboro;
+    border: none;
+    cursor: pointer;
+
+}
+
+.img-box:hover {
+    background-image: linear-gradient(to right, rgba(96, 164, 27, 0.15), rgba(191, 168, 38, 0.15));
+}
+
+.features-flower {
+    width: 270px;
+    height: 420px;
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+
+.flower-title {
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 800px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.second-img {
+    bottom: 55px;
+    width: 270px;
+    height: 320px;
+
+}
+
+.second-img-box {
+    background-color: rgba(5, 151, 160, 0.15);
+    ;
+}
+
+.third-img-box {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
