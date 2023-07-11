@@ -104,7 +104,7 @@ body {
     height: 500px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-    margin-top: 48px;
+    margin-top: 50px;
     position: relative;
     box-shadow: 4px 4px 10px gainsboro;
     border: none;
@@ -145,10 +145,36 @@ body {
 
 .second-img-box {
     background-color: rgba(5, 151, 160, 0.15);
-    ;
+    
 }
 
 .third-img-box {
     background-color: rgba(71, 125, 17, 0.15);
 }
 
+/* service section style start */
+
+.service-container {
+    height: 320px;
+    margin: auto;
+    padding: 0 180px;
+    border-radius: 8px;
+    margin-top: 120px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    /* gap: 200px; */
+    padding: 130px 130px;
+}
+
+.services {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
